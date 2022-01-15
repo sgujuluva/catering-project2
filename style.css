@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* menu navigation */
+
+nav{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+  }
+
+.logo li a{
+text-decoration: none;
+font-family: monospace;
+font-size: larger;
+margin-left: 20px;
+color:black;
+}
+.logo li{
+    list-style-type: none;
+}
+
+.menu li{
+    list-style-type: none;
+    display:inline;
+    padding:3rem;
+  
+}
+.menu li a{
+   
+    text-decoration: none;
+font-family: monospace;
+font-size: larger;
+color:black;
+}
+
+/* image-1 */
+.hamburger{
+    margin-top: 20px;
+}
+/* about catering */
+.about-catering{
+    margin-top: 20px;
+    display: flex;
+  }
+  .about-catering .image-about-catering{
+ margin:80px;
+  }
+  
+  .about-catering .text-about-catering{
+      font-family:monospace;
+  }
+  .about-catering .text-about-catering h2{
+      text-align: center;
+  }
+  .about-catering .text-about-catering h4{
+      color:grey;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 30px;
+  }
+  .about-catering .text-about-catering p{
+  font-style: italic;
+  margin-right: 50px;
+  }
